@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Metro Card - Responsive vCard Template</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheets/font-awesome-ie7.min.css">
+  <link rel="stylesheet" href="stylesheets/jquery.fancybox.css">
+  <link rel="stylesheet" href="stylesheets/tooltipster.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+
+  
+  <!-- Include Google Font -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans:300,600' rel='stylesheet' type='text/css'>
+
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+
+  <div class="row main-container"><!-- Main Container -->
+  
+
+  	
+  	<div id="nav-container"><!-- Navigation -->
+  	
+  		<div id="nav-title" class="hidden" data-page="profile">
+  			<h4>Quincy Connors</h4>
+  			<h6>Product Designer</h6>
+  		</div>
+  		
+  		
+  		  
+  	
+  		<div id="main-nav">
+  			<ul id="menu-items">
+  			
+  				<li class="menu-item active-menu" title="Profile " id="profile-button" data-page="profile">
+  					<i class="icon-user"></i>
+  				</li>
+  				
+  				<li class="menu-item" title="Resume " id="resume-button" data-page="resume">
+  					<i class="icon-reorder"></i>
+  				</li>
+  				
+  				<li class="menu-item" title="Portfolio " id="portfolio-button" data-page="portfolio">
+  					<i class="icon-eye-open"></i>
+  				</li>
+  				
+  				<li class="menu-item" title="Contact " id="contact-button" data-page="contact-page">
+  					<i class="icon-envelope"></i>
+  				</li>
+  				
+  			</ul>
+  		</div>
+  		
+  	</div><!-- end of Navigation -->
+  
+  
+	<div id="content" class="twelve columns">
+	
+		<div class="page" id="profile">
+		
+			<div class="seven columns">
+				
+				<div id="cover-photo" class="five columns">
+					<img alt="photo" src="images/photo.jpg" />
+				</div>
+				
+				<div id="cover-name-motto" class="seven columns">
+					<h1>Quincy Connors</h1>
+					<br />
+					<h4>Product Designer</h4>
+					<br />
+					<p>
+					I am a truly dynamic individual with next-level ideas and a killer resume to boot.
+					</p>
+				</div>
+			
+			</div>
+			
+			<div class="five columns" id="profile-details">
+			
+
+					<span class="details-title">Name:</span><span class="details-text">Quincy Connors</span>
+					<br />
+					<span class="details-title">Birthdate:</span><span class="details-text">26/07/1990</span>
+					<br />
+					<span class="details-title">City:</span><span class="details-text">Sydney, NSW 5000</span>
+					<br />
+					<span class="details-title">Email:</span><span class="details-text">quincy@mywebby.net</span>
+					<br />
+					<span class="details-title">Website:</span><span class="details-text"><a target="_blank" href="http://www.mywebby.net/">www.mywebby.net</a></span>
+
+
+			</div>
+			
+		</div><!-- end of Profile -->
+		
+		<div class="twelve columns page hidden" id="resume">
+		
+			<div class="row">
+			
+				<div id="resume-profile" class="seven columns">
+					<h4><i class="icon-asterisk"></i> Professional Profile</h4>
+					<p class="profile-quote">
+						"I believe the size of your success is measured by the strength of your desire"
+					</p>
+					<p>
+					Neque pecun modut est neque nonor et imper ned libidig met, consectetur adipiscing elit, sed ut labore et dolore magna aliquam is nostrud exercitation ullam mmodo consequet. 
+					Seacula quarta decima et quinta decima Eodem modo typi? Modo typi qui nunc nobis videntur parum clari. Ut enim ad minim veniam, quis nostrud exerc. 
+					Irure dolor in reprehend incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+					</p>
+				</div>
+				
+				<div id="resume-skills" class="five columns">
+					
+					<h4><i class="icon-asterisk"></i>   Skills</h4>
+					
+					<ul id="skills">
+						
+						<li><h5>Graphic Design</h5></li>
+						<li class="bar-style"><span class="bar graphic-design"></span></li>
+						
+						<li><h5>HTML / CSS</h5></li>
+						<li class="bar-style"><span class="bar html-css"></span></li>
+						
+						<li><h5>Javascript / jQuery</h5></li>
+						<li class="bar-style"><span class="bar jquery"></span></li>
+						
+						<li><h5>Wordpress</h5></li>
+						<li class="bar-style"><span class="bar wordpress"></span></li>
+					</ul>
+				
+				</div>
+			
+			
+			</div><!-- end of Profile and Skills -->
+			
+			<div class="row" id="career">
+			
+				<div id="employment-education" class="seven columns">
+					
+						<h4><i class="icon-asterisk"></i>  Employment</h4>
+						
+						
+						<ul class="resume-list">
+						
+							<li class="resume-entry">
+								<div class="resume-list-icon"><i class="icon-briefcase"></i></div>
+								<div class="resume-list-heading">
+									<h5 class="position">Position</h5><h5 class="year">2010 - Present</h5>
+									<h6 class="company">Company</h6>
+								</div>
+								<p>
+								Seacula quarta decima et quinta decima Eodem modo typi? Modo typi qui nunc nobis videntur parum clari. 
+								Nodo typi qui nunc. Ut enim ad minim veniam, quis nostrud exerc. 
+								Irure dolor in reprehend incididunt ut labore et dolore magna aliqua. 
+								</p>
+							</li>
+							
+							<li class="resume-entry">
+								<div class="resume-list-icon"><i class="icon-briefcase"></i></div>
+								<div class="resume-list-heading">
+									<h5 class="position">Position</h5><h5 class="year">2007</h5>
+									<h6 class="company">Company</h6>
+								</div>
+								<p>
+								Seacula quarta decima et quinta decima Eodem modo typi? Modo typi qui nunc nobis videntur parum clari. 
+								Nodo typi qui nunc. Ut enim ad minim veniam, quis nostrud exerc. 
+								Irure dolor in reprehend incididunt ut labore et dolore magna aliqua. 
+								</p>
+							</li>
+							
+
+							
+
+							
+						</ul>
+						
+						<h4><i class="icon-asterisk"></i>  Education</h4>
+						
+					
+						<ul class="resume-list">
+						
+							<li class="resume-entry">
+								<div class="resume-list-icon"><i class="icon-certificate"></i></div>
+								<div class="resume-list-heading">
+									<h5 class="position">Qualification</h5><h5 class="year">2010</h5>
+									<h6 class="company">Institution</h6>
+								</div>
+								<p>
+								Seacula quarta decima et quinta decima Eodem modo typi? Modo typi qui nunc nobis videntur parum clari. 
+								Nodo typi qui nunc. Ut enim ad minim veniam, quis nostrud exerc. 
+								Irure dolor in reprehend incididunt ut labore et dolore magna aliqua. 
+								</p>
+							</li>
+							
+							<li class="resume-entry">
+								<div class="resume-list-icon"><i class="icon-certificate"></i></div>
+								<div class="resume-list-heading">
+									<h5 class="position">Qualification</h5><h5 class="year">2006</h5>
+									<h6 class="company">Institution</h6>
+								</div>
+								<p>
+								Seacula quarta decima et quinta decima Eodem modo typi? Modo typi qui nunc nobis videntur parum clari. 
+								Nodo typi qui nunc. Ut enim ad minim veniam, quis nostrud exerc. 
+								Irure dolor in reprehend incididunt ut labore et dolore magna aliqua. 
+								</p>
+							</li>
+							
+						</ul>
+							
+						
+	
+					</div><!-- end Employment & Education -->
+			
+				<div class="columns five" id="career-snapshot">
+				
+				<h4 class="align-left"><i class="icon-asterisk"></i>  Career Snapshot</h4>
+				
+				
+				
+					<ul class="milestones-list">
+					
+						<li class="milestone ahievement">
+							<i class="icon-certificate milestone-icon"></i>
+							<h5>Graduated</h5>
+							<h6>2006</h6>
+						</li>
+						
+						<li class="milestone">
+							<i class="icon-caret-down"></i>
+						</li>
+						
+						<li class="milestone  ahievement">
+							<i class="icon-briefcase milestone-icon"></i>
+							<h5>Junior Programmer</h5>
+							<h6>2007</h6>
+						</li>
+						
+						<li class="milestone">
+							<i class="icon-caret-down"></i>
+						</li>
+						
+						<li class="milestone ahievement">
+							<i class="icon-briefcase milestone-icon"></i>
+							<h5>Project Lead</h5>
+							<h6>2009</h6>
+						</li>
+						
+						<li class="milestone">
+							<i class="icon-caret-down"></i>
+						</li>
+						
+						<li class="milestone ahievement">
+							<i class="icon-certificate milestone-icon"></i>
+							<h5>Completed Masters</h5>
+							<h6>2010</h6>
+						</li>
+						
+						<li class="milestone">
+							<i class="icon-caret-down"></i>
+						</li>
+						
+						<li class="milestone ahievement">
+							<i class="icon-briefcase milestone-icon"></i>
+							<h5>Account Manager</h5>
+							<h6>2012</h6>
+						</li>
+						
+					</ul>
+				</div><!-- end Career Snapshot -->
+
+			</div><!-- end of Career  -->
+	
+		</div><!-- end of Resume -->
+		
+		<div class="page hidden" id="portfolio">
+
+			<div class="columns twelve" id="filters-container">
+					<ul id="filters">
+					  <li><h5><i class="icon-filter"></i></h5></li>
+					  <li class="filter-active"><a href="#" data-filter="*"><h5>show all</h5></a></li>
+					  <li><a href="#" data-filter=".design"><h5>design</h5></a></li>
+					  <li><a href="#" data-filter=".render"><h5>renders</h5></a></li>
+					  <li><a href="#" data-filter=".illustration"><h5>illustration</h5></a></li>
+					</ul>
+					
+			</div>
+			
+			
+			<div class="columns twelve">
+			<div id="isotope-wrapper">
+				<div id="isotope-container">
+				  
+
+				  				
+				  <div class="illustration isotope-item first-item">
+
+						<a class="fancybox" href="images/portfolio/draw1.jpg"><img alt="draw1" src="images/portfolio/draw1.jpg" /></a>
+						<h5>Item Title</h5>
+						<p>Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.</p>
+						
+				  </div>
+				  
+				  <div class="illustration isotope-item">
+
+						<a class="fancybox" href="images/portfolio/draw2.jpg"><img alt="draw2" src="images/portfolio/draw2.jpg" /></a>
+						<h5>Item Title</h5>
+						<p>Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.</p>
+						
+				  </div>
+				  
+				  <div class="illustration isotope-item">
+
+						<a class="fancybox" href="images/portfolio/draw3.jpg"><img alt="draw3" src="images/portfolio/draw3.jpg" /></a>
+						<h5>Item Title</h5>
+						<p>Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.</p>
+						
+				  </div>
+				  
+				  <div class="render isotope-item">
+						<a class="fancybox" href="images/portfolio/auditorium.jpg"><img alt="auditorium" src="images/portfolio/auditorium.jpg" /></a>
+						<h5>Item Title</h5>
+						<p>Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.</p>
+				  
+				  </div>
+				  
+				  <div class="render isotope-item first-item">
+						<a class="fancybox" href="images/portfolio/inner.jpg"><img alt="inner" src="images/portfolio/inner.jpg" /></a>
+						<h5>Item Title</h5>
+						<p>Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.</p>
+				  
+				  </div>
+				  
+				  <div class="render isotope-item">
+						<a class="fancybox" href="images/portfolio/retail.jpg"><img alt="retail" src="images/portfolio/retail.jpg" /></a>
+						<h5>Item Title</h5>
+						<p>Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.</p>
+				  
+				  </div>
+				  
+				  <div class="design isotope-item">
+						<a class="fancybox" href="images/portfolio/design1.jpg"><img alt="design1" src="images/portfolio/design1.jpg" /></a>
+						<h5>Item Title</h5>
+						<p>Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.</p>
+				  
+				  </div>
+				  
+				  <div class="design isotope-item">
+						<a class="fancybox" href="images/portfolio/design2.jpg"><img alt="design1" src="images/portfolio/design2.jpg" /></a>
+						<h5>Item Title</h5>
+						<p>Irure dolor in reprehend incididunt ut labore et dolore magna aliqua.</p>
+				  
+				  </div>
+				  
+				  
+				  
+				</div>
+			</div>
+			</div>
+					
+		</div><!-- end of Portfolio -->
+		
+		<div class="page hidden" id="contact-page">
+		
+			
+			<div class="columns twelve google-map">
+				<iframe width="800" height="350" src="https://maps.google.com.au/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=-25.335448,135.745076&amp;ie=UTF8&amp;hq=&amp;t=m&amp;ll=-33.873818,151.206422&amp;spn=0.006235,0.017166&amp;z=16&amp;output=embed"></iframe>
+			</div>
+	
+			<div class="columns five">
+			
+				<h4>Get in touch with me</h4>
+				
+				<ul id="contact-methods">
+					<li class="contact-method" >
+						<h6><i class="icon-envelope"></i>   quincy@mywebby.net</h6>
+					</li>
+					
+					<li class="contact-method">
+						<h6><i class="icon-phone"></i>   +614 28 258 777</h6>
+					</li>
+					
+					<li class="contact-method">
+						<h6><i class="icon-map-marker"></i>   Sydney, NSW, 5000</h6>
+					</li>
+					
+					<li class="contact-method">
+						<h6><i class="icon-twitter"></i>   @quincyconnors</h6>
+					</li>
+
+				</ul>
+
+			</div>
+			
+			<div class="columns seven">
+				
+				<h4>Send me a message</h4>
+			
+				<form id="contact" method="post">
+				
+					<fieldset>
+							<div>
+								<h6>Name:</h6>
+								<input id="form_name" type="text" >
+							</div>
+							<div>
+								<h6>Email:</h6>
+								<input name="form_email" id="form_email" type="text" >
+							</div>
+							
+							<h6>Message:</h6>
+							<textarea tabindex="-8" rows="10" name="msg_text" id="msg_text" ></textarea>
+							<input type="submit" name="submit" class="form-button">
+							
+					</fieldset>
+				</form> 
+					<p class="success hidden">Your message has been sent successfully.</p>
+			</div>
+			<hr />
+		</div><!-- end of Contact -->
+		
+	
+	</div><!-- end of Content -->
+	
+	<div id="footer-holder">
+	
+		
+	
+		<ul id="social-icons">
+			
+			<li>
+				<a href="http://www.twitter.com/" target="_blank"><i class="icon-twitter"></i></a>
+			</li>
+			
+			<li>
+				<a href="http://www.linkedin.com/" target="_blank"><i class="icon-linkedin"></i></a>
+			</li>
+			
+			<li>
+				<a href="http://www.google.com/plus" target="_blank"><i class="icon-google-plus"></i></a>
+			</li>
+			
+			<li>
+				<a href="http://www.facebook.com/" target="_blank"><i class="icon-facebook"></i></a>
+			</li>
+	
+		</ul>
+		
+		<div id="copyright">Copyright 2013 Quincy Connors</div>
+		
+	</div>
+
+	
+
+
+  </div><!-- end of Main Container -->
+
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+  <script src="javascripts/scripts.js"></script>
+  <script src="javascripts/jquery.isotope.min.js"></script>
+  <script src="javascripts/jquery.fancybox.js"></script>
+  <script src="javascripts/jquery.tooltipster.min.js"></script>
+
+</body>
+</html>

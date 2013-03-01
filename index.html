@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<script language="JavaScript"> 
+ function calcHeight() {  
+ var the_height= document.getElementById('the_iframe').contentWindow. document.body.scrollHeight;
+ document.getElementById('the_iframe').height= the_height;
+ }</script>
+
+
+
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Rat'Box By Korl@n</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="stylesheets/app.css">
+  <link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheets/font-awesome-ie7.min.css">
+  <link rel="stylesheet" href="stylesheets/jquery.fancybox.css">
+  <link rel="stylesheet" href="stylesheets/tooltipster.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+
+  
+  <!-- Include Google Font -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans:300,600' rel='stylesheet' type='text/css'>
+
+
+  <script src="javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+
+  <div class="row main-container"><!-- Main Container -->
+  
+
+  	
+  	<div id="nav-container"><!-- Navigation -->
+  	
+  		<div id="nav-title" class="hidden" data-page="profile">
+  			<h4>Rat'Box</h4>
+  			<h6>TheNextGenSharingSolution</h6>
+  		</div>
+  		
+  		
+  		  
+  	
+  		<div id="main-nav">
+  			<ul id="menu-items">
+  			
+  				<li class="menu-item active-menu" title="Profil" id="profile-button" data-page="profile">
+  					<i class="icon-user"></i>
+  				</li>
+  				
+  				<li class="menu-item" title="Fichiers" id="resume-button" data-page="fichier">
+  					<i class="icon-reorder"></i>
+  				</li>
+  				
+  				<li class="menu-item" title="Chat" id="portfolio-button" data-page="chat">
+  					<i class="icon-eye-open"></i>
+  				</li>
+  				
+  				<li class="menu-item" title="About" id="contact-button" data-page="about">
+  					<i class="icon-envelope"></i>
+  				</li>
+  				
+  			</ul>
+  		</div>
+  		
+  	</div><!-- end of Navigation -->
+  
+  
+	<div id="content" class="twelve columns">
+	
+		<div class="page" id="profile">
+		
+			<div class="seven columns">
+				
+				<div id="cover-photo" class="five columns">
+					<img alt="photo" src="images/piratebox.png" />
+				</div>
+				
+				<div id="cover-name-motto" class="seven columns">
+					<h1>Rat'Box</h1>
+					<br />
+					<h4>More Peers</h4>
+					<br />
+					<p>
+					TheNextGenSharingSolution ... :)
+					</p>
+				</div>
+			
+			</div>
+			
+			<div class="five columns" id="profile-details">
+			
+
+					<span class="details-title">Name:</span><span class="details-text">RaspBox@Korlan</span>
+					<br />
+					<span class="details-title">Wifi:</span><span class="details-text">Tp-Link W77AN</span>
+					<br />
+					<span class="details-title">Capacité:</span><span class="details-text">32 Gb</span>
+					<br />
+					<span class="details-title">Utilisateurs:</span><span class="details-text">50/1337</span>
+					
+
+
+			</div>
+			
+		</div><!-- end of Profile -->
+		
+<div class="page hidden" id="fichier">
+	<div id="resume-profile" class="seven columns">
+		<h4><i class="icon-asterisk"></i> Fichiers</h4>
+					<p class="profile-quote">
+						Espace de Sotckage/Partage
+				</div>
+		<iframe width="100%" id="the_iframe" onLoad="calcHeight();" src="./elfinder/elfinder.html" scrolling="NO" frameborder="0" height="1"></iframe>
+			
+		</div><!-- end of Resume -->
+		
+<div class="page hidden" id="chat">
+		<div id="resume-profile" class="seven columns">
+		<h4><i class="icon-asterisk"></i> Chat</h4>
+					<p class="profile-quote">
+						En phase d'intégration..
+				</div>
+		<iframe height="1000px" width="100%" scrolling="NO" frameborder="0" src="chat.html" ></iframe>	
+		
+		</div><!--end of Portfolio -->
+		
+		<div class="page hidden" id="about">
+		
+		<div id="resume-profile" class="seven columns">
+					<h4><i class="icon-asterisk"></i> Pirate Box</h4>
+					<p class="profile-quote">
+						Inspired by pirate radio and the free culture movment, PirateBox is a self-contained mobile collaboration and file sharing device. PirateBox utilizes Free, Libre and Open Source software (FLOSS) to create mobile wireless file sharing networks where users can anonymously share images, video, audio, documents, and other digital content. 
+<p>
+PirateBox is designed to be safe and secure. No logins are required and no user data is logged. The system is purposely not connected to the Internet in order to prevent tracking and preserve user privacy. 
+<p>
+PirateBox was created by David Darts and is registered under a Free Art License (2011). To learn more about the project or to find out how to build your own PirateBox system, please visit http://wiki.daviddarts.com/piratebox  
+					</p>
+				</div>
+				<div id="resume-skills" class="five columns">
+					
+					<h4><i class="icon-asterisk"></i> @David Darts</h4>
+					
+				<img src="piratebox-logo.png" />
+			
+				</div>
+		
+		</div><!-- end of Contact -->
+		
+	
+	</div><!-- end of Content -->
+	
+	
+		<div id="copyright">Copyright 2013 Colas Korlan</div>
+		
+	</div>
+
+	
+
+
+  </div><!-- end of Main Container -->
+
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="javascripts/app.js"></script>
+  <script src="javascripts/scripts.js"></script>
+  <script src="javascripts/jquery.isotope.min.js"></script>
+  <script src="javascripts/jquery.fancybox.js"></script>
+  <script src="javascripts/jquery.tooltipster.min.js"></script>
+
+</body>
+</html>

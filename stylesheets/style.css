@@ -1,0 +1,666 @@
+/* ----------------------------- vCard specific styles ----------------------------- */
+
+
+body{
+	background-color: #3a3a3a;
+	background-image: url('../images/leather.png');
+}
+
+.main-container{
+		margin-top: 40px;
+		padding: 0px 15px 40px 15px;
+		color: #fff;
+}
+
+#content{
+	overflow:hidden;
+	position:relative;
+	background: #0a59c1;
+}
+
+.page{
+	overflow: hidden;
+	padding: 30px 20px 20px 20px;
+}
+
+
+.hidden{
+	display: none;
+}
+
+.align-left{
+	text-align:left;
+}
+
+#footer-holder{
+	width:100%;
+	text-align:right;
+	padding-top: 10px;
+	overflow:hidden;
+}
+
+#copyright{
+	text-align:center;
+	color: #6a6a6a;
+	margin-top: 20px;
+	
+}
+
+
+/* ----------------------------- Navigation styles ----------------------------- */
+
+#nav-container{
+	text-align:right;
+	margin-bottom: 20px;
+}
+
+#main-nav{
+	display:inline-block;
+	text-align:center;
+}
+
+#nav-title{
+	float: left;
+	text-align:left;
+	padding: 20px 20px 21px 20px;
+	background-color: #0ac06d;
+	cursor: pointer;
+}
+
+#nav-title h6{
+	margin-top: 5px;
+}
+
+#menu-items{
+	list-style: none;
+}
+
+.menu-item{
+	float: left;
+	background-color: #0a59c1;
+	cursor: pointer;
+	width: 80px;
+	height: 80px;
+	margin-left: 22px;
+	font-size: 3em;
+}
+
+.icon-user{
+	padding-top: 19px;
+	padding-left: 1px;
+}
+
+.icon-reorder{
+	padding-top: 19px;
+}
+
+.icon-eye-open{
+	padding-top: 18px;
+}
+
+.icon-envelope{
+	padding-top:18px;
+	padding-left: 3px;
+}
+
+#menu-items li:first-child{
+	margin-left:0px;
+}
+
+.active-menu{
+	background-color: #0ac06d;
+	color: #fff;
+}
+
+/* ----------------------------- end of Navigation styles ----------------------------- */
+
+
+/* ----------------------------- Profile Page styles ----------------------------- */
+
+#profile{
+		padding: 60px 0px 60px 0px;
+		color: #fff;
+}
+
+#cover-photo{
+	float:left;
+	width: 150px;
+	height: auto;
+}
+
+#cover-name-motto{
+	float:left;
+	border-right: 3px solid #fff;
+}
+
+.details-title{
+	display: inline-block;
+	background-color: #2c89ed;
+	padding: 5px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.details-text{
+	float:right;
+	padding: 5px;
+}
+
+/* ----------------------------- end of Profile Page Styles ----------------------------- */
+
+/* ----------------------------- Resume Page Styles ----------------------------- */
+
+
+#files h6{
+	padding-top: 5px;
+}
+
+#files h4{
+	padding:7px;
+	background-color: #2c89ed;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #fff;
+}
+
+#profile-text{
+	display: block;
+	border-top: 1px solid;
+	padding-top: 20px;
+}
+
+#employment-education h6{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+}
+
+#profile-quote{
+	font-weight: 600;
+	font-size: 16px;
+	
+}
+
+/* ------------- Skill Bar Styles ---------------- */
+
+#skills { 
+	list-style: none;
+	margin: 0px auto;
+	position: relative;
+	line-height: 2em;
+}
+
+.bar-style {
+	margin-top: 5px;
+	margin-bottom:25px; 
+	background:#fff;
+	height:20px; 
+}
+
+
+.bar { 
+	height:20px;  
+	position:absolute;		
+}
+
+.graphic-design {
+	width:75%; 
+	-moz-animation:graphic-design 2s ease-out;
+	-webkit-animation:graphic-design 2s ease-out;
+	background-color: #0ac06d;
+
+}
+
+.html-css {
+	width:90%;
+	-moz-animation:html-css 2s ease-out;
+	-webkit-animation:html-css 2s ease-out;
+	background-color: #0ac06d;
+}
+
+.jquery {
+	width:65%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+	background-color: #0ac06d;
+}
+
+.wordpress {
+	width:80%;
+	-moz-animation:wordpress 2s ease-out;
+	-webkit-animation:wordpress 2s ease-out;
+	background-color: #0ac06d;
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:75%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-moz-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+@-webkit-keyframes graphic-design       { 0%  { width:0px;} 100%{ width:75%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:65%;}  }
+@-webkit-keyframes wordpress   { 0%  { width:0px;} 100%{ width:80%;}  }
+
+
+/* -------------- end of Skill Bar Styles ------------- */
+
+#resume-skills{
+	padding-left: 15px;
+}
+
+.resume-list{
+	list-style:none;
+}
+
+.company{
+	clear:both;
+	margin-top: 10px;
+}
+
+#career{
+	padding: 30px 0px 0px 0px;
+}
+
+
+#career-snapshot{
+	text-align:center;
+}
+
+.milestones-list{
+	list-style:none;
+	margin:20px 0px 0px 0px;
+}
+
+.ahievement{
+	padding: 20px 10px 20px 10px;
+	background-color: #0ac06d;
+	text-align:right!important;
+	border-right: 3px solid #fff;
+}
+
+.milestone-icon{
+	font-size: 2.5em;
+	float:left;
+	margin-right: 10px;
+}
+
+.icon-caret-down{
+	font-size: 8em;
+	position: relative;
+	top: -45px;
+	height: 65px;
+	color: #0ac06d;
+	
+}
+
+.resume-entry{
+	padding-bottom: 20px;
+}
+
+.resume-list-icon{
+	float: left;
+	font-size: 2.5em;
+	margin-right: 10px;
+}
+
+.resume-list-heading{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+
+.resume-entry .position{
+	float:left;
+}
+
+.resume-entry .year{
+	float:right;
+}
+
+.resume-entry .resume-description{
+	display:block;
+}
+
+/* ----------------------------- end of Resume Page Style ----------------------------- */
+
+/* ----------------------------- Portolfio Page Styles -----------------------------*/
+
+#portfolio-text{
+	text-align:right;
+}
+
+
+#filters{
+	list-style:none;
+	overflow:hidden;
+	margin:0;
+	padding:10px;
+	background-color: #2c89ed;
+	border-bottom: 3px solid #fff;
+	margin-bottom: 20px;
+}
+
+#filters li{
+	float: left;
+	margin: 0px 20px 0px 0px;
+	padding: 5px;
+
+
+}
+
+.filter-active{
+	background-color:#0ac06d;
+}
+
+#filters li a:hover{
+	background-color: #0ac06d;
+
+}
+
+#filters li a:active{
+	background-color: #0ac06d;
+}
+
+
+.isotope-item{
+	width: 160px;
+	padding:10px 10px 10px 10px;
+	background-color: #2c89ed;
+	overflow:hidden;
+	float:left;
+	position: relative;
+	font-size: 0.8em;
+	margin: 0px 0px 10px 0px;
+	border-bottom: 3px solid #fff;
+
+}
+
+.isotope-item:hover{
+	background-color: #0ac06d; 
+}
+
+.isotope-item img{
+	width:160px;
+	height: 110px;
+	margin-bottom: 10px;
+}
+
+.first-item{
+	margin-left: 0px;
+}
+
+#isotope-wrapper{
+	width:100%;
+	clear:both;
+}
+
+#isotope-wrapper h5{
+	margin-bottom: 10px
+}
+
+#isotope-container{
+	margin:0px auto;
+	text-align: center;
+	left: 5px;
+}
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* ----------------------------- Contact Page Styles ----------------------------- */
+.google-map{
+	margin-bottom: 20px;
+}
+
+fieldset{
+	padding-left:0px;
+	padding-right: 0px;
+}
+
+#contact-page h4{
+	padding: 7px;
+	background-color: #2c89ed;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #fff;
+}
+
+.google-map iframe{
+	border: 4px solid;
+	width: 100%;
+	height: 350px;
+}
+
+#about h6{
+	margin-bottom: 10px;
+}
+
+#contact-methods{
+	list-style: none;
+}
+
+.contact-method{
+	margin-bottom: 15px;
+}
+
+#contact-methods li:last-child{
+	margin-bottom: 50px;
+}
+
+
+
+#social-icons{
+	text-align:center;
+	display:inline-block;
+}
+
+#social-icons li{
+	margin-left: 10px;
+	background-color: #0a59c1;
+	padding: 8px 5px 5px 7px;
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	font-size: 1.2em;
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+#social-icons li:hover{
+	color: #fff;
+	background-color: #0ac06d;
+}
+
+#social-icons li:hover a{
+	color: #fff;
+}
+
+#error {
+	color:red;
+	font-size:10px;
+	display:none;
+}
+.needsfilled {
+	background:red;
+	color:white;
+}
+
+#contact fieldset{
+	border: none;
+	text-align:left;
+}
+
+#contact input, textarea{
+	border-radius: 0px;
+}
+
+#contact input[type="submit"]{
+	border:none;
+	background-color: #0ac06d;
+	padding: 10px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	float: right;
+}
+
+#contact input[type="submit"]:hover{
+	background-color: #fff;
+	color: #0ac06d;
+}
+
+
+
+/* ----------------------------- Media Queries ----------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+.main-container{
+	margin-top: 15px;
+}
+
+#nav-container{
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.menu-item{
+	padding: 10px 1px 0px 0px;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	margin-left: 30px;
+	font-size: 2em;
+}
+
+.icon-user{
+	padding: 0px;
+}
+
+.icon-reorder{
+	padding:0px;
+}
+
+.icon-eye-open{
+	padding:0px;
+}
+
+.icon-envelope{
+	padding:0px;
+}
+
+
+#profile{
+	padding: 20px 0px 20px 0px;
+}
+
+#career{
+	padding: 0px;
+}
+
+#nav-title{
+	float:none;
+	margin-bottom: 15px;
+	width:100%;
+}
+
+#cover-photo{
+	margin:0px auto;
+	margin-bottom: 10px;
+	float:none;
+	text-align:center;
+	width: 150px !important;
+}
+
+#profile-details{
+	margin-top: 25px;
+}
+
+.page{
+	padding: 30px 5px 20px 5px;
+}
+
+#profile-text{
+	padding-bottom: 45px;
+}
+
+#skill{
+	margin: 5px 0px auto;
+	padding: 40px 0px 0px 0px;
+}
+
+#cover-name-motto{
+	border:none;
+	border-bottom: 3px solid #fff;
+	padding: 0px 0px 15px 0px;
+}
+
+#filters-container{
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.filters-responsive-hr{
+	display: block !important;
+}
+
+.isotope-item{
+	margin-left:5px;
+}
+
+#portfolio-text{
+	text-align:center;
+
+}
+
+}
+
+
+/* ----------------------------- end of Media Queries ----------------------------- */
+
+
+
